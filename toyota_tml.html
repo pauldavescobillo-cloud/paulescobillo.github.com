@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toyota TML</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+
+    header {
+      background: #e50914;
+      padding: 15px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .hero {
+      height: 70vh;
+      background: url("OIP.jfif") no-repeat center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 42px;
+      background: rgba(0,0,0,0.6);
+      padding: 15px 25px;
+      border-radius: 10px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card h2 {
+      margin: 15px;
+      color: #ff1b1b;
+    }
+    .card p {
+      margin: 0 15px 20px;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      background: #222;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Toyota Motors Limited (TML)</h1>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Innovating the Future of Driving</h1>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="cards">
+    <div class="card">
+      <img src="OIP.jfif" alt="Toyota Fortuner">
+      <h2>Fortuner</h2>
+      <p>Luxury SUV built for power, performance, and prestige.</p>
+    </div>
+    <div class="card">
+      <img src="OIP (1).jfif" alt="Toyota Vios">
+      <h2>Vios</h2>
+      <p>Perfect balance of efficiency, style, and comfort.</p>
+    </div>
+    <div class="card">
+      <img src="OIP (2).jfif" alt="Toyota Innova">
+      <h2>Innova</h2>
+      <p>Family-focused MPV designed for every journey.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Toyota Motors Limited (TML). All rights reserved.
+  </footer>
+</body>
+</html>
